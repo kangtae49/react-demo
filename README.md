@@ -1,3 +1,21 @@
+
+```
+npx create-react-app react-demo
+
+github.com/new
+react-demo
+
+git remote add origin https://github.com/kangtae49/react-demo.git
+
+git push -u origin master
+
+git config --local user.name kangtae49
+git config --local user.email kangtae49@gmail.com
+
+code .
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
