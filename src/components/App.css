@@ -1,0 +1,42 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+}
+
+.Head {
+   display: flex;
+   align-items: center;
+}
+.Head header>div>div:nth-child(1){
+    flex-grow: 0;    
+}
+.Head header>div>div:nth-child(2){
+    flex-grow: 1;
+}
+.Head header>div>div:nth-child(3){
+    flex-grow: 0;    
+}
+
+
+.Head>div>h1{
+    margin: 0;
+    text-align: center;
+}
+
+.Contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.Nav {
+    flex-grow: 1;
+}
+
+.Section {
+    flex-grow: 4;
+}
+
+.Foot {
+
+}
+

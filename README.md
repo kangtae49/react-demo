@@ -1,4 +1,4 @@
-
+# ready
 ```
 npx create-react-app react-demo
 
@@ -13,6 +13,37 @@ git config --local user.name kangtae49
 git config --local user.email kangtae49@gmail.com
 
 code .
+```
+
+# extension
+```
+Material Theme
+Prettier
+TSLint
+```
+
+# Prettier Setting
+```
+// settings.json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Set the default
+  "editor.formatOnSave": false,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tslint.jsEnable": true
+}
+
+```
+
+# package
+```
+npm install react-router-dom
+npm install @material-ui/core
+npm install @material-ui/icons
 ```
 
 
